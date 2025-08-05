@@ -1,8 +1,59 @@
 body{
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
     width: 570px;
     margin: 0 auto;
+}
+
+#profile-img{
+    max-width: 50%;
+    border-radius: 50%;
+    
+}
+
+.bold-text{
+    font-weight: 900;
+    display: block;
+}
+
+h1 .bold-text{
+    font-size: 80px;
+}
+
+h2 .bold-text,
+h3 .bold-text{
+    font-size: 60px;
+}
+
+h1, 
+h2{
+    font-weight: 300;
+}
+
+h1{
+    font-size: 3.75rem;
+}
+
+h2{
+    font-size: 2.625rem;
+}
+
+h3{
+    font-size: 2.25rem;
+}
+
+.credit{
+    font-size: 1rem;
+}
+
+a{
+    color: #99D930;
+}
+
+a:hover,
+a:focus{
+    color: #131313;
 }
