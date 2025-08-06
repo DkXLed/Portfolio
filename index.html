@@ -10,21 +10,37 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="container">
-            <h1>Hello, my name is <span class="bold-text">Derek</span></h1>
-            <img id="profile-img" src="./img/xFace.jpg" alt="Derek Kent gazing ravishingly at the camera">
-            <h2>I am a <span class="bold-text">graphic designer</span></h2>
-            <p>Ultricies morbi urna lectus magna quisque ultricies velit enim 
-            nisi wolupat amet id id porta auctor at viverra consequat 
-            turpis quam enim amet vulputate.</p>
-            <h2>My most recent <span class="bold-text">article</span></h2>
-            <article>
-                <h3> Design systems that scale</h3>
-                <p>Written by Derek on August 4, 2025</p>
-                <p>Ultricies morbi urna lectus magna quisque ultricies velit enim 
-                nisi wolupat amet id id porta auctor at viverra consequat 
-                turpis quam enim... <a href="a">continue reading</a></p>
-            </article>  
+
+            <header class="inverse">
+                <div class="container"></div>
+                    <h1>Hello, my name is <span class="bold-text header-shadow">Derek</span></h1>
+                    <img id="profile-img" src="./img/xFace.jpg" alt="Derek Kent gazing ravishingly at the camera">
+                </div>
+            </header>
+
+            <section class="about-me">
+                <div class="container"></div>
+                    <h2>I am a <span class="bold-text about-me-shadow">graphic designer</span></h2>
+                    <p>Ultricies morbi urna lectus magna quisque ultricies velit enim 
+                    nisi wolupat amet id id porta auctor at viverra consequat 
+                    turpis quam enim amet vulputate.</p>
+                    <a href="#" class="see-my-work">See my work</a>
+                </div>
+            </section>
+
+            <section class="articles inverse">  
+                <div class="container"></div>
+                    <h2>My most recent <span class="bold-text articles-shadow">article</span></h2>
+                    <article>
+                        <h3> Design systems that scale</h3>
+                        <p class="small-text">Written by Derek on August 4, 2025</p>
+                        <p>Ultricies morbi urna lectus magna quisque ultricies velit enim 
+                        nisi wolupat amet id id porta auctor at viverra consequat 
+                        turpis quam enim... <a href="a">continue reading</a></p>
+                        <a href="#" class="see-my-articles">See all my articles</a>
+                    </div>
+                </article> 
+            </section>  
         </div>  
     </body>
 </html>
