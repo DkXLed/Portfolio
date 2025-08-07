@@ -60,12 +60,9 @@ body{
 
 .header-img {
     background-image: linear-gradient(to bottom, transparent, rgba(30, 30, 80, .7)), url(img/largeBackground.jpg);
-    padding: 60px;
-    border-radius: 0px 0px 110px 110px;  
+    padding: 5px;
+    border-radius: 0px 0px 110px 110px; 
 }
-
-
-
 
 h1{
     text-shadow: 2px 2px 5px rgb(46, 157, 201);
